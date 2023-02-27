@@ -243,9 +243,6 @@ footer a {
       vertical-align: middle;
       margin-bottom: unset;
    }
-   header div p {
-      margin-top: 20px;
-   }
    header nav {
       position: absolute;
       right: 1.5em;
