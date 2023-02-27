@@ -235,7 +235,9 @@ footer a {
 @media screen and (min-width: 1200px) {
    header {
       text-align: unset;
-      position: relative;
+   }
+   header > div{
+      display: inline-block;
    }
    header div p,
    header div img {
@@ -244,9 +246,7 @@ footer a {
       margin-bottom: unset;
    }
    header nav {
-      position: absolute;
-      right: 1.5em;
-      top: 3em;
+      display: inline-block;
    }
    main iframe,
    main section {
