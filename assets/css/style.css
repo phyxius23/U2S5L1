@@ -50,6 +50,9 @@ main {
    padding: 2em 1em;
    margin-bottom:1.5em ;
 }
+.logo-html{
+   display: none;
+}
 section { 
    background-color: #e3e3e3;
    padding: 1em;
@@ -180,26 +183,6 @@ footer a {
 }
 
 /* CSS personale */
-.clearfix {
-   overflow: auto;
-}
-/* header li {
-   display: inline-block;
-}
-.logo-html{
-   width: 80px;
-   border: 4px solid #2ba0c6;
-   outline: 4px solid #a12672;
-   margin-bottom: 10px;
-}
-.news{
-   background-color: #a3a3a3;
-   color: #333;
-   text-transform: capitalize;
-}
-article li {
-   margin-block: 5px;
-} */
 
 @media screen and (min-width: 576px) {
    header li {
@@ -210,6 +193,7 @@ article li {
       border: 4px solid #2ba0c6;
       outline: 4px solid #a12672;
       margin-bottom: 10px;
+      display: block;
    }
    .news{
       background-color: #a3a3a3;
@@ -252,7 +236,7 @@ article li {
       text-align: unset;
       position: relative;
    }
-   header div{
+   header div p{
       overflow: auto;
    }
    header div img {
@@ -297,5 +281,10 @@ article li {
    }
    footer {
       padding: 2em 12em;
+   }
+   @media print {
+      h1 {
+         font-size: 20rem;
+      }
    }
 }
