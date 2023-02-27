@@ -82,6 +82,7 @@ h1 + p {
 }
 ul, ol {
    margin-left: 2em;
+   list-style-type: symbols('*');
 }
 a {
    color: #00A0C6;
@@ -236,14 +237,10 @@ footer a {
       text-align: unset;
       position: relative;
    }
-   header div p{
-      overflow: auto;
-   }
-   header div img {
-      float: left;
-   }
    header div p,
    header div img {
+      display: inline-block;
+      vertical-align: middle;
       margin-bottom: unset;
    }
    header div p {
